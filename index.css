@@ -16,7 +16,7 @@
 
 .calc{
     background-color: antiquewhite;
-    padding: 30px;
+    padding: 80px;
     border-radius: 30px;
     box-shadow: inset 7px 7px 12px #ffff,
                        5px 5px 12px rgba(0,0,0,0.16);
@@ -27,18 +27,15 @@
 input{
     grid-column: span 4;
     height: 60px;
-    width: 200px;
+    width: 220px;
     background-color: aliceblue;
     border-radius: 16px;
     box-shadow: inset -5px -5px 12px #ffff,
                 inset 5px 5px 12px rgba(0,0,0,0.16);
-    border:none;
+    border: none;
     color: rgb(70,70,70);
     font-size: 30px;
     text-align: end;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
     padding: 20px;
 }
 
