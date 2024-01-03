@@ -71,8 +71,8 @@ function calculator() {
     const expression = output.value;
     const result = calculateExpression(expression);
     output.value = result;
-    localStorage.setItem("Answersss", result);
-    sessionStorage.setItem("Answers :",result)
+    localStorage.setItem("Answersss", result); //local storage
+    sessionStorage.setItem("Answers :",result); //session Storage
   } catch (error) {
     alert("Invalid Input");
   }
